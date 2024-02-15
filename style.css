@@ -25,6 +25,7 @@ nav {
     background-color: #ffffff;
     color: #000000;
     padding: 0px 8px 0px 8px;
+    z-index: 10000;
 }
 
 #text-hero {
@@ -52,6 +53,17 @@ nav {
 #img-hero {
     width: 100px;
     
+}
+
+.hero-position {
+    position: relative;
+    top: 40px;
+}
+
+/* main */
+
+main {
+    padding-top: 40px;
 }
 
 /* sezione operazioni */
