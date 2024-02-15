@@ -77,6 +77,7 @@ nav {
 
 .justify-between {
     justify-content: space-between;
+    justify-items: space-between;
 }
 
 .d-column {
