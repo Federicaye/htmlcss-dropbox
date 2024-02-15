@@ -54,6 +54,12 @@ nav {
     
 }
 
+/* sezione operazioni */
+
+.operazioni {
+    width: calc(100% / 3);
+}
+
 :root {
 	--color-bg-hero: #b4d0e7;
 	--color-block-darkblue: #0d2481;
@@ -106,4 +112,8 @@ nav {
 
 .gap {
     gap: 8px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
