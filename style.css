@@ -72,6 +72,17 @@ main {
     width: calc(100% / 3);
 }
 
+
+/* link */
+
+.link-blue {
+    background-color: var(--color-button);
+    color: white;
+    padding: 7px;
+}
+
+/* colori */
+
 :root {
 	--color-bg-hero: #b4d0e7;
 	--color-block-darkblue: #0d2481;
