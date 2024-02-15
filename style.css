@@ -27,13 +27,19 @@ nav {
     padding: 0px 8px 0px 8px;
 }
 
-nav img {
+#hero img {
     height: 30px;
+    width: 30px;
 }
 
 #hero {
     background-color: var(--color-bg-hero);
     padding-top: 40px;
+}
+
+#img-hero {
+    width: 100px;
+    
 }
 
 :root {
@@ -79,4 +85,12 @@ nav img {
 
 .gap {
     gap: 8px;
+}
+
+.flex-basis-70 {
+    flex-basis: 70%;
+}
+
+.flex-basis-30 {
+    flex-basis: 30%;
 }
