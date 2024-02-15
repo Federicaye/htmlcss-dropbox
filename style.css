@@ -60,6 +60,16 @@ nav {
     top: 40px;
 }
 
+a {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#text-hero:last-child {
+    margin-top: 40px;
+
+}
+
 /* main */
 
 main {
