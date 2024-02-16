@@ -236,6 +236,14 @@ ol {
     background-color: #0d2481;
 }
 
+
+/* footer bottom */
+
+footer {
+    background-color: var(--color-bg-footer);
+    color: white;
+}
+
 /* colori */
 
 :root {
