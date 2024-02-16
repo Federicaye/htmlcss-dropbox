@@ -167,17 +167,63 @@ ol {
     margin-top: 30px;
 }
 
-.item1-enterprise {
+.item1-70 {
     width: 70%;
 }
 
-.item1-enterprise {
+.item2-30 {
     width: 30%;
 }
 
-.item1-enterprise img {
+.item1-70 img {
     width: 100%;
 }
+
+.botton-empty {
+    padding: 15px;
+    border: 1px #000000 solid;
+}
+
+
+/* sponsor */
+
+/* le tre grandi suddivisioni nel blocco sponsor */
+.sponsor-square {
+    width: calc(100% / 3);
+}
+
+.sponsor-img {
+    width: 50%;
+    position: relative;
+}
+
+.sponsor-img img {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+#designit {
+    background-color: var(--color-block-lightgreen);
+}
+
+#asu {
+    background-color: var(--color-block-darkred);
+}
+
+#uf {
+    background-color: var(--color-block-lightblue);
+}
+
+#topps {
+    background-color: var(--color-block-lightred);
+}
+
 
 /* colori */
 
@@ -215,6 +261,7 @@ ol {
 
 .justify-center {
     justify-content: center;
+    justify-items: center;
 }
 
 .justify-end {
