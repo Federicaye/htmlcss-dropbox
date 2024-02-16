@@ -195,10 +195,11 @@ ol {
 .sponsor-img {
     width: 50%;
     position: relative;
+    aspect-ratio: 1/1;
 }
 
 .sponsor-img img {
-    width: 30%;
+    width: 50%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -224,6 +225,17 @@ ol {
     background-color: var(--color-block-lightred);
 }
 
+#lp {
+    background-color: var(--color-bg-hero);
+}
+
+#hc {
+background-color: var(--color-block-darkred);
+}
+
+#wbr {
+    background-color: #0d2481;
+}
 
 /* colori */
 
