@@ -184,6 +184,7 @@ ol {
 
 .background-blue {
     background-color: var(--color-bg-hero);
+    padding: 40px 0px 40px 0;
 }
 
 #enterprise {
@@ -268,26 +269,19 @@ ol {
 
 /* domande frequenti */
 
-.faq {
-    width: 90%;
+
+.faq-section i {
+    
+    padding: 20px;
 }
 
-.faq-section div,
-p {
+.grey-line {
+    border-top: 1px #a5a4a4 solid;
+}
+
+.grey-line:last-child {
     border-bottom: 1px #a5a4a4 solid;
-}
-
-.faq-section a {
-    width: 10%;
-}
-
-.faq:first-of-type {
-    border-top: 1px #a5a4a4 solid;
-
-}
-
-.fa-chevron-down {
-    border-top: 1px #a5a4a4 solid;
+    margin-bottom: 30px;
 }
 
 /* footer bottom */
