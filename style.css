@@ -162,6 +162,18 @@ ol {
     color: white;
 }
 
+.button-white {
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.background-blue {
+    background-color: var(--color-bg-hero);
+}
+
 #enterprise {
     border: 1px #a5a4a4 solid;
     margin-top: 30px;
