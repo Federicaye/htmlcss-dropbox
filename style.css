@@ -143,6 +143,16 @@ main {
     color: white;
 }
 
+.check-piano {
+    text-indent: -2em;
+}
+
+.check-piano::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    
+}
+
 /* colori */
 
 :root {
