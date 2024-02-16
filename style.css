@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+    list-style-type: none;
 }
 
 a {
@@ -143,15 +144,23 @@ main {
     color: white;
 }
 
-.check-piano {
-    text-indent: -2em;
-}
+ /*  .check-piano {
+    text-indent: -1em;
+}*/
 
-.check-piano::before {
+.check-piano::marker {
     content: "\f00c";
     font-family: FontAwesome;
     
 }
+
+ol {
+    padding-inline-start: 12px;
+    list-style-position: inside;
+    
+}
+
+
 
 /* colori */
 
