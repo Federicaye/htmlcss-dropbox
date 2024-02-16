@@ -7,6 +7,17 @@
     list-style-type: none;
 }
 
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -261,16 +272,17 @@ ol {
     width: 90%;
 }
 
-.faq-section div,p {
-    border-bottom:  1px #a5a4a4 solid;
+.faq-section div,
+p {
+    border-bottom: 1px #a5a4a4 solid;
 }
 
 .faq-section a {
     width: 10%;
 }
 
-.faq:first-of-type { 
-    border-top:  1px #a5a4a4 solid;
+.faq:first-of-type {
+    border-top: 1px #a5a4a4 solid;
 
 }
 
