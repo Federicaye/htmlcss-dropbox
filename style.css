@@ -133,6 +133,12 @@ main {
     content: "\f1e0";
 }
 
+.button-prova {
+    background-color: var(--color-button);
+    padding: 10px 25px 10px 25px;
+    color: #ffffff;
+}
+
 /* colori */
 
 :root {
