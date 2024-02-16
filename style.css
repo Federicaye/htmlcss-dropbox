@@ -108,9 +108,13 @@ main {
     width: calc(100% / 3);
 }
 
-.utenti {
+.utenti, .spazio, .funzioni {
     text-indent: -2em;
 
+}
+
+.piani h4 {
+    border-bottom: 1px #a5a4a4 solid;
 }
 
 .utenti::before {
@@ -177,9 +181,15 @@ main {
     align-self: flex-end;
 }
 
+.self-center {
+    align-self: center;
+}
+
 .align-center {
     align-items: center;
 }
+
+
 
 .gap-8 {
     gap: 8px;
