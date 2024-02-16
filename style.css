@@ -101,23 +101,32 @@ main {
     padding: 7px;
 }
 
-/* piano */
+/* piani business */
 
 .piani {
     border: 1px #a5a4a4 solid;
-}
-
-.piani {
     width: calc(100% / 3);
 }
 
-.pianielenco {
-    text-indent: 30px;
+.utenti {
+    text-indent: -2em;
+
 }
 
-.utenti::marker {
+.utenti::before {
     content: "\f007";
+    font-family: FontAwesome;
+    
+}
 
+.spazio::before {
+    content: "\e185";
+    font-family: FontAwesome;
+}
+
+.funzioni::before {
+    font-family: FontAwesome;
+    content: "\f1e0";
 }
 
 /* colori */
