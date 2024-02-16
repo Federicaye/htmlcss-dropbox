@@ -218,6 +218,9 @@ ol {
     transform: translate(-50%, -50%);
 }
 
+.img-uni {
+    filter: invert(100%);
+}
 
 
 #designit {
