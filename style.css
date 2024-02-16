@@ -101,6 +101,11 @@ main {
     padding: 7px;
 }
 
+.piani {
+    border: 1px #a5a4a4 solid;
+}
+
+
 /* colori */
 
 :root {
