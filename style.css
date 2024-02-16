@@ -8,6 +8,11 @@
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 
 .container-1200 {
     margin: 0 auto;
@@ -26,6 +31,10 @@ nav {
     color: #000000;
     padding: 0px 8px 0px 8px;
     z-index: 10000;
+}
+
+#hero h1 {
+    text-align: center;
 }
 
 #text-hero {
@@ -50,13 +59,19 @@ nav {
     padding-top: 40px;
 }
 
+#text-hero i {
+   font-size: 50px;
+   display: inline-block;
+   margin-top: 40px;
+}
+
 
 .hero-position {
     position: relative;
     top: 40px;
 }
 
-a {
+#text-hero a {
     display: inline-block;
     margin-top: 15px;
 }
