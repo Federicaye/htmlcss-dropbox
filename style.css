@@ -34,6 +34,7 @@ nav {
     color: #000000;
     padding: 0px 8px 0px 8px;
     z-index: 10000;
+    box-shadow: 0 1px 3px #666
 }
 
 #hero h1 {
