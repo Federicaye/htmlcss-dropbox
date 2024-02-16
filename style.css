@@ -9,12 +9,7 @@
 
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-family: Open Sans, sans-serif;
 }
 
 
@@ -43,13 +38,13 @@ nav {
     width: 100%;
     background-color: #ffffff;
     color: #000000;
-    padding: 0px 8px 0px 8px;
     z-index: 10000;
-    box-shadow: 0 1px 3px #666
+    box-shadow: 0 1px 3px #666;
+    padding: 20px 10px 20px 10px;
 }
 
 #hero h1 {
-    text-align: center;
+    padding-bottom: 50px;
 }
 
 #text-hero {
@@ -71,7 +66,7 @@ nav {
 
 #hero {
     background-color: var(--color-bg-hero);
-    padding-top: 40px;
+    padding: 50px 0px 50px 0px;
 }
 
 #text-hero i {
@@ -83,7 +78,7 @@ nav {
 
 .hero-position {
     position: relative;
-    top: 40px;
+    top: 100px;
 }
 
 #text-hero a {
