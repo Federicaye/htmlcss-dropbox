@@ -108,7 +108,7 @@ main {
     width: calc(100% / 3);
 }
 
-.utenti, .spazio, .funzioni {
+/*  .utenti, .spazio, .funzioni { */
     text-indent: -2em;
 
 }
@@ -117,20 +117,32 @@ main {
     border-bottom: 1px #a5a4a4 solid;
 }
 
-.utenti::before {
+ol {
+    padding-inline-start: 13px;
+    list-style-position: inside;
+    
+}
+
+.utenti::marker {
     content: "\f007";
     font-family: FontAwesome;
     
 }
 
-.spazio::before {
+.spazio::marker {
     content: "\e185";
     font-family: FontAwesome;
 }
 
-.funzioni::before {
+.funzioni::marker {
     font-family: FontAwesome;
     content: "\f1e0";
+}
+
+.check-piano::marker {
+    content: "\f00c";
+    font-family: FontAwesome;
+    
 }
 
 .button-prova {
@@ -148,17 +160,9 @@ main {
     text-indent: -1em;
 }*/
 
-.check-piano::marker {
-    content: "\f00c";
-    font-family: FontAwesome;
-    
-}
 
-ol {
-    padding-inline-start: 12px;
-    list-style-position: inside;
-    
-}
+
+
 
 
 
