@@ -18,6 +18,11 @@ a {
 
 }
 
+.container-1000 {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 /* header */
 
 nav {
@@ -168,6 +173,10 @@ ol {
 
 .item1-enterprise {
     width: 30%;
+}
+
+.item1-enterprise img {
+    width: 100%;
 }
 
 /* colori */
