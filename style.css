@@ -10,7 +10,6 @@
 
 a {
     text-decoration: none;
-    color: #000000;
 }
 
 
@@ -135,8 +134,13 @@ main {
 
 .button-prova {
     background-color: var(--color-button);
-    padding: 10px 25px 10px 25px;
-    color: #ffffff;
+    width: 200px;
+    text-align: center;
+    padding: 0px 10px 0 10px;
+}
+
+.button-prova a {
+    color: white;
 }
 
 /* colori */
