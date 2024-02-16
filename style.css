@@ -101,10 +101,19 @@ main {
     padding: 7px;
 }
 
+/* piano */
+
 .piani {
     border: 1px #a5a4a4 solid;
 }
 
+.piani {
+    width: calc(100% / 3);
+}
+
+.pianielenco {
+    text-indent: 30px;
+}
 
 /* colori */
 
