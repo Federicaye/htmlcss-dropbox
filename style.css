@@ -236,6 +236,28 @@ ol {
     background-color: #0d2481;
 }
 
+/* domande frequenti */
+
+.faq {
+    width: 90%;
+}
+
+.faq-section div,p {
+    border-bottom:  1px #a5a4a4 solid;
+}
+
+.faq-section a {
+    width: 10%;
+}
+
+.faq:first-of-type { 
+    border-top:  1px #a5a4a4 solid;
+
+}
+
+.fa-chevron-down {
+    border-top: 1px #a5a4a4 solid;
+}
 
 /* footer bottom */
 
@@ -303,7 +325,9 @@ footer {
     align-items: center;
 }
 
-
+.f-column {
+    flex-direction: column;
+}
 
 .gap-8 {
     gap: 8px;
