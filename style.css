@@ -177,6 +177,12 @@ ol {
 
 }
 
+.botton-empty {
+    padding: 10px;
+    border: 1px #000000 solid;
+}
+
+
 .background-blue {
     background-color: var(--color-bg-hero);
     padding: 40px 0px 40px 0;
@@ -199,10 +205,6 @@ ol {
     width: 100%;
 }
 
-.botton-empty {
-    padding: 15px;
-    border: 1px #000000 solid;
-}
 
 
 /* sponsor */
@@ -345,6 +347,10 @@ footer {
     align-items: center;
 }
 
+.align-start {
+    align-items: flex-start;
+}
+
 .f-column {
     flex-direction: column;
 }
@@ -367,4 +373,12 @@ footer {
 
 .padding-tb {
     padding: 15px 0px 15px 0px;
+}
+
+.padding-t30 {
+    padding-top: 30px;
+}
+
+.padding-b30 {
+    padding-bottom: 30px;
 }
