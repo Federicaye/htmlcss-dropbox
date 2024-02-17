@@ -361,14 +361,6 @@ footer {
     flex-wrap: wrap;
 }
 
-.padding-15 {
-   padding: 3em 3em 3em 3em;
-}
-
-.padding-top-30 {
-    padding-top: 0px;
-}
-
-.padding-bottom-30 {
-    padding-bottom: 0px;
+.padding-3em {
+    padding: 15px 15px 15px 15px;
 }
