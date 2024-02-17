@@ -130,7 +130,7 @@ main {
 }
 
 
-ol {
+.piani-business ol {
     padding-inline-start: 13px;
     list-style-position: inside;
 
@@ -286,6 +286,12 @@ ol {
 footer {
     background-color: var(--color-bg-footer);
     color: white;
+    padding: 50px 0px 50px 0px;
+}
+
+
+footer ul {
+padding-inline-start: 0px;
 }
 
 /* colori */
