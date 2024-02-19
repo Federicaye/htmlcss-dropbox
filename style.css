@@ -7,6 +7,10 @@
     list-style-type: none;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 body {
   font-family: Open Sans, sans-serif;
@@ -328,6 +332,20 @@ main {
 .grey-line:last-child {
     border-bottom: 1px #a5a4a4 solid;
     margin-bottom: 30px;
+}
+
+.fa-chevron-down:hover {
+    transform: rotate(180deg);
+
+}
+
+.fa-chevron-down:hover .answer {
+    display: block;
+
+}
+
+.answer {
+    display: none;
 }
 
 /* footer bottom */
