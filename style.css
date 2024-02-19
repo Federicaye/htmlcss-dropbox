@@ -302,6 +302,10 @@ main {
     background-color: #0d2481;
 }
 
+#cco {
+    background-color: #ffd830;
+}
+
 #logo-design {
     padding: 15px;
 }
@@ -314,6 +318,10 @@ main {
 
 .faq-section {
     padding: 50px 0px 90px 0px;
+}
+
+.faq-section div {
+   position: relative;
 }
 
 .faq-section i {
@@ -339,13 +347,16 @@ main {
 
 }
 
-.fa-chevron-down:hover .answer {
-    display: block;
-
-}
-
 .answer {
     display: none;
+    position: absolute;
+    top: 40px;
+    background-color: #ffd830;
+    z-index: 100000;
+}
+
+.faq-answer:hover .answer {
+ display: block;
 }
 
 /* footer bottom */
