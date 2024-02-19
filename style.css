@@ -278,6 +278,10 @@ main {
     aspect-ratio: 1/1;
 }
 
+.sponsor-img:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
 .sponsor-img img {
     width: 50%;
     position: absolute;
