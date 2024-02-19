@@ -340,6 +340,11 @@ main {
 
 /* domande frequenti */
 
+.piani hr  {
+    width: 70px;
+
+}
+
 .faq-section {
     padding: 50px 0px 90px 0px;
 }
