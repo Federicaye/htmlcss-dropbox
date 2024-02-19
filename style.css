@@ -350,9 +350,15 @@ main {
 .answer {
     display: none;
     position: absolute;
-    top: 40px;
+    top: 55px;
+    right: 0px;
     background-color: #ffd830;
     z-index: 100000;
+    width: 1000px;
+}
+
+.faq-answer {
+    position: relative;
 }
 
 .faq-answer:hover .answer {
