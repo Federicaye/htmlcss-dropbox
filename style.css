@@ -264,6 +264,14 @@ main {
     background-color: #0d2481;
 }
 
+#logo-design {
+    padding: 15px;
+}
+
+.sponsor-square p {
+    padding: 15px;
+}
+
 /* domande frequenti */
 
 .faq-section {
