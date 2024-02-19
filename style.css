@@ -47,6 +47,26 @@ nav {
     padding: 20px 10px 20px 10px;
 }
 
+.menu-a-discesa {
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    background-color: #ff30b0;
+    z-index: 1000;
+    width: 200px;
+    padding-inline-start: 13px;
+
+}
+
+nav li {
+    position: relative;
+}
+
+nav li:hover .menu-a-discesa {
+    display: block;
+}
+
 #hero h1 {
     padding-bottom: 50px;
 }
@@ -124,7 +144,7 @@ main {
 
 .piani {
     border: 1px #a5a4a4 solid;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
 }
 
 .enterprise-plan {
