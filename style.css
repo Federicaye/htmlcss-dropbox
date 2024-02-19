@@ -169,6 +169,15 @@ main {
     color: white;
 }
 
+.button-prova:hover {
+    opacity: 0.75;
+  }
+
+.link-blue:hover {
+ opacity: 0.75;
+}
+
+
 .button-white {
     background-color: white;
     width: 200px;
@@ -180,6 +189,11 @@ main {
 .botton-empty {
     padding: 10px;
     border: 1px #000000 solid;
+}
+
+.botton-empty:hover {
+    background-color: var(--color-button);
+    color: white;
 }
 
 
